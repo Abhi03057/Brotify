@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Brotify</title>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li class="logoinfo">Brotify</li>
+            <li id="about">About us</li>
+            <li id="socials">Socials</li>
+            <li id="socials1">Sign in</li>
+            
+        </ul>
+    </nav>
+    
+<div class="container">
+
+    <div class="sidebar">
+        <div class="sidetext">
+            <p id="suggest">Suggestions</p>
+        </div>
+
+
+        <div class="sidelist">
+            <ul>
+                <li>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <p>Search</p>
+                </li>
+
+                <li>
+                    <i class="fa-regular fa-bookmark"></i>
+                    <p>Playlist</p>
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-users"></i>
+                    <p>Favourite Artist</p>
+                </li>
+
+                <li>
+                    <i class="fa-regular fa-user"></i>
+                    <p>Profile</p>
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-gear"></i>
+                    <p>Settings</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-sack-dollar"></i>
+                    <p>Premium</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--hero section-->
+    <div class="herobox">
+        <div class="greet">
+            <h1>So what would you like to listen  today Abhi?</h1>
+        </div>
+    </div>
+
+
+</div>
+
+<div class="songpart">
+    <div class="music">
+        <div class="musicline">
+            <h1>Continue listening?</h1>
+    
+            <div class="songinfo">
+                <div class="songphoto"></div>
+                <div class="song">
+                    <div class="play">
+                        <p id="mastersongname">In the End</p>
+                        <div class="playpause">
+                            <button id="previous"><i class="fa-solid fa-circle-chevron-left"></i></button>
+                            <button id="masterplay">Play</button>
+                            <button id="next"><i class="fa-solid fa-circle-chevron-right"></i></button>
+                        </div>
+                    </div>
+                    
+                    <!--<progress min="0" value="0" max="100" id="progress"></progress>-->
+                    <input type="range" name="range" id="progress" min="0" value="0" max="100">
+                    
+                </div>
+            </div>
+    
+    
+        </div>
+       
+        
+    
+    </div>
+
+    <div class="songlist">
+
+        <p id="queue">Next in Queue</p>
+        
+                <div class="songdisplay">
+                    <img class="title" src="https://i.pinimg.com/originals/fc/25/27/fc252706d432fa2dd0a5d2e41b6897d1.png" alt="">
+                    <p>In the End</p>
+                    <i id="0" class="fa-regular fa-circle-play"></i>
+                </div>
+                <div class="songdisplay">
+                    <img class="title" src="https://hiphopcanada.com/wp-content/uploads/2020/05/dax-joker-688w-1.jpg" alt="">
+                    <p>JOKER</p>
+                    <i id="1" class="fa-regular fa-circle-play"></i>
+                </div>
+
+                <div class="songdisplay">
+                    <img class="title" src="https://925thebeat.com/wp-content/uploads/2023/09/Travis_Scott_Songs_by_Talmage_Garn-1000x600.jpg" alt="">
+                    <p class="songitemplay">FE!N</p>
+                    <i id="2" class="fa-regular fa-circle-play"></i>
+                </div>
+
+                <div class="songdisplay">
+                    <img class="title" src="https://images-na.ssl-images-amazon.com/images/I/91Sw0Hbc10L._SL1500_.jpg" alt="">
+                    <p>Perfect</p>
+                    <i id="3" class="fa-regular fa-circle-play"></i>
+                </div>
+
+
+                <div class="songdisplay">
+                    <img class="title" src="https://i.pinimg.com/originals/fc/25/27/fc252706d432fa2dd0a5d2e41b6897d1.png" alt="">
+                    <p>Numb</p>
+                    <i id="4" class="fa-regular fa-circle-play"></i>
+                </div>
+            
+    </div>
+        
+
+</div>
+
+<!-- trial box top artist-->
+<div class="topArtist">
+    <div class="artistPhoto">
+        <h1 class="artist">View Your Top Artist</h1>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
