@@ -1,4 +1,25 @@
 console.log("Welcome to Brotify");
+
+// Theme toggle functionality
+const themeToggle = document.getElementById('theme-toggle');
+
+// Check for saved theme preference
+if (localStorage.getItem('theme') === 'light') {
+    document.body.classList.add('light-mode');
+}
+
+// Theme toggle event listener
+themeToggle.addEventListener('click', () => {
+    document.body.classList.toggle('light-mode');
+    
+    // Save theme preference
+    if (document.body.classList.contains('light-mode')) {
+        localStorage.setItem('theme', 'light');
+    } else {
+        localStorage.setItem('theme', 'dark');
+    }
+});
+
 let audioElement = new Audio('Linkin Park - In The End.mp3');
 let songIndex = 0;
 let masterplay = document.getElementById("masterplay");
